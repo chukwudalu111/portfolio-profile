@@ -6,14 +6,14 @@
 }
 
 body{
-    background-color: #e5e5e5;
+background-color: #e5e5e5;
 }
 
 .contanier{
-    max-width: 1000;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: white;
-    padding: 40px;
+    padding: 100px;
     display:flex;
     flex-direction: column;
     gap: 40px;
@@ -36,42 +36,91 @@ nav a{
     align-items: center;
     flex-wrap: wrap;
 }
-.hero text{
-   max-width:  500px;
+.hero-text{
+   max-width: 500px;
 }
-div h1{
-    font-size: 3em;
-    color: #1a1a2e;
-    margin: 30px;
-}
-div p{
-    color: #444;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
- .hero text h1{
+
+.hero-text h1{
     font-size: 2em;
     color:#1a1a2e;
     margin-bottom: 20px;
 }
-.hero text p{
+
+.hero-text p{
     color:#444;
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
 .btn{
     background-color: #ff6b6b;
     color: white;
     padding: 12px 20px;
-    border: none;
+    border: none; 
     border-radius: 4px;
     cursor: pointer;
     font-weight:bold;
-}
+} 
+
 .hero-image img{
     width: 180px;
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    border: 6px solid#eaf6fb;
+    border: 6px solidce#eaf6fb;
+}
+
+ 
+/* .contanier-2{ */
+    /* max-width: 1200px; */
+    /* margin: 0 space auto; */
+/* } */
+
+.header-2{
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   margin-bottom: 1.5rem;
+}
+.header-2 h2{
+    font: size 1.25rem;
+    color:#2c2c2c;
+}
+
+.header-2 a{
+    color:#00aaff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.posts{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.post-card{
+    background-color: white;
+    border-radius: 6px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 0 4px rgba(0,0,0, 0.04);
+}
+.post-title{
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1d1d1d;
+}
+.post-meta{
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+.post-meta span{
+    margin: 0 0.5rem;
+}
+.post-content{
+    font-size: 0.875rem;
+    color: #444;
+    line-height: 1.5;
 }
